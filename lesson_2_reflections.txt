@@ -3,3 +3,9 @@ What happens when you initialize a repository? Why do you need to do it?
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 	Staging area is an intermediate area between working directory and the repository. It allows us to add a logical group of files at a time.
+
+How can you use the staging area to make sure you have one commit per logical change?
+	Staging area is kind of a buffer in which we can stage a logical change in it, then commit it before staging any other logical change.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	If you need to make experimental changes to the code while retaining a copy, you can create branches. We can checkout the branch and do code changes to it. Still we can revert to the master branch when needed.
