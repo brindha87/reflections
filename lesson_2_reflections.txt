@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+	A .git file is created. For version control
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+	Staging area is an intermediate area between working directory and the repository. It allows us to add a logical group of files at a time.
