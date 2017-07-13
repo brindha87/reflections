@@ -15,3 +15,6 @@ How do the diagrams help you visualize the branch structure?
 	
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 	When we merge two branches, we get a single branch which has both the functionalities. From this point we can trace back to both of the parent branches. The diagram gives us a clear picture of the commit nodes, identifying the parent and reachable and unreachable nodes.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+	When there is a common block modified in two branches, then git will not be able to merge it automatically. In that case it is better to compare the difference in the modified block of both the branches with the parent commit and do it manually.
